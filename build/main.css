@@ -30061,8 +30061,8 @@ page-form .findone {
 }
 
 page-home .contentimg {
-  width: 100%;
-  height: 160px;
+  height: 170px;
+  background-size: 100%;
 }
 
 page-home .iconsize {
@@ -30074,19 +30074,7 @@ page-home .imgsize {
   width: 100%;
 }
 
-page-newone .backimage {
-  background-image: url("../assets/images/midrange hotels.jpg") !important;
-  height: 170px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-page-newone .toolbar-background-md {
-  background: none;
-}
-
-page-newone .toolbar-title-md {
-  padding: 0px 36%;
-  color: white;
-  padding-bottom: 41%;
+page-newone .findone {
+  width: 75%;
+  height: 95px;
 }
