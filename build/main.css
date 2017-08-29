@@ -30056,12 +30056,11 @@ page-billing .back-button-icon-md {
 }
 
 page-form .findone {
-  width: 100%;
-  height: 120px;
+  width: 75%;
+  height: 95px;
 }
 
 page-home .contentimg {
-  height: 170px;
   background-size: 100%;
 }
 
@@ -30074,7 +30073,45 @@ page-home .imgsize {
   width: 100%;
 }
 
+page-movies .imgsize {
+  width: 100%;
+  height: 200px;
+}
+
 page-newone .findone {
   width: 75%;
   height: 95px;
+}
+
+page-restaurant .backgroundone {
+  background-image: url("../assets/images/resone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+page-restaurant .backgroundtwo {
+  background-image: url("../assets/images/resthreee.jpg");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+page-restaurant .backgroundthree {
+  background-image: url("../assets/images/restwoo.jpg");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+page-restaurant .text {
+  text-align: center;
+}
+
+page-restaurant .gridtop {
+  margin-bottom: 100px;
+}
+
+page-restaurant .item-md ion-avatar img {
+  border-radius: 13%;
 }
