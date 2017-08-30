@@ -35959,6 +35959,25 @@ ion-navbar.toolbar {
   }
 }
 
+page-automobile .backgroundone {
+  background-image: url("../assets/images/automobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+page-automobile .sizeofone {
+  font-size: 20px;
+}
+
+page-automobile .text {
+  text-align: center;
+}
+
+page-automobile .gridtop {
+  margin-bottom: 100px;
+}
+
 page-billing .back-button-icon-md {
   margin-top: -45px;
 }
@@ -35989,6 +36008,25 @@ page-doctors .text {
 }
 
 page-doctors .gridtop {
+  margin-bottom: 100px;
+}
+
+page-electrical .backgroundone {
+  background-image: url("../assets/images/electircal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+page-electrical .sizeofone {
+  font-size: 20px;
+}
+
+page-electrical .text {
+  text-align: center;
+}
+
+page-electrical .gridtop {
   margin-bottom: 100px;
 }
 
@@ -36051,6 +36089,44 @@ page-home .imgsize {
     height: 200px;
     width: 100%;
   }
+}
+
+page-industrialsupplies .backgroundone {
+  background-image: url("../assets/images/industrialsupplies.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+page-industrialsupplies .sizeofone {
+  font-size: 20px;
+}
+
+page-industrialsupplies .text {
+  text-align: center;
+}
+
+page-industrialsupplies .gridtop {
+  margin-bottom: 100px;
+}
+
+page-machine .backgroundone {
+  background-image: url("../assets/images/machine.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+page-machine .sizeofone {
+  font-size: 20px;
+}
+
+page-machine .text {
+  text-align: center;
+}
+
+page-machine .gridtop {
+  margin-bottom: 100px;
 }
 
 page-movies .imgsize {
