@@ -40,7 +40,7 @@ webpackEmptyAsyncContext.id = 148;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__space_space__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__form_form__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__newone_newone__ = __webpack_require__(195);
@@ -55,6 +55,8 @@ webpackEmptyAsyncContext.id = 148;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__machine_machine__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__automobile_automobile__ = __webpack_require__(206);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__hotelone_hotelone__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__recharge_recharge__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__taxi_taxi__ = __webpack_require__(211);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -64,6 +66,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
+
 
 
 
@@ -105,6 +109,8 @@ var HomePage = (function () {
         this.machine = __WEBPACK_IMPORTED_MODULE_13__machine_machine__["a" /* Machine */];
         this.automobile = __WEBPACK_IMPORTED_MODULE_14__automobile_automobile__["a" /* Automobile */];
         this.hotelone = __WEBPACK_IMPORTED_MODULE_15__hotelone_hotelone__["a" /* Hotelone */];
+        this.recharge = __WEBPACK_IMPORTED_MODULE_16__recharge_recharge__["a" /* Recharge */];
+        this.taxi = __WEBPACK_IMPORTED_MODULE_17__taxi_taxi__["a" /* Taxi */];
         this.pet = "first";
     }
     HomePage.prototype.presentLoading = function () {
@@ -153,7 +159,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/home/home.html"*/'<ion-header>\n    <ion-toolbar >\n      \n  \n      <ion-title>Home</ion-title>\n  \n      <ion-buttons end>\n        <button ion-button icon-only>\n          <ion-icon name="search"></ion-icon>\n        </button>\n      </ion-buttons>\n  \n    </ion-toolbar>\n  </ion-header>\n\n<ion-content>\n  <div >\n    <ion-slides pager>\n      <ion-slide [navPush]="form" (click)="presentLoading()">\n        <img src="assets/images/bannerfive.jpg" class="imgsize">\n      </ion-slide>\n      <ion-slide [navPush]="form" (click)="presentLoading()">\n        <img src="assets/images/bannersix.jpg" class="imgsize">\n      </ion-slide>\n      <ion-slide [navPush]="form" (click)="presentLoading()">\n        <img src="assets/images/banner.jpg" class="imgsize">\n      </ion-slide>\n      <ion-slide [navPush]="form" (click)="presentLoading()">\n        <img src="assets/images/banner8.jpg" class="imgsize">\n      </ion-slide>\n      <ion-slide [navPush]="form" (click)="presentLoading()">\n          <img src="assets/images/bannerthree.jpg" class="imgsize">\n        </ion-slide>\n        <ion-slide [navPush]="form" (click)="presentLoading()">\n            <img src="assets/images/bannerseven.jpg" class="imgsize">\n          </ion-slide>\n    </ion-slides>\n  </div>\n  \n  <div >\n    <ion-segment color="default" [(ngModel)]="pet">\n      <ion-segment-button value="first">\n        first\n      </ion-segment-button>\n      <ion-segment-button value="second">\n        second\n      </ion-segment-button>\n      <ion-segment-button value="third" [navPush]="space" (click)="presentLoading()">\n        third\n      </ion-segment-button>\n      <ion-segment-button value="icon" (click)="showRadio()">\n\n        <ion-icon name="menu"></ion-icon>\n\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n  \n <div [ngSwitch]="pet">\n    <ion-list *ngSwitchCase="\'first\'">\n        <div>\n      <ion-item>\n        <ion-row >\n          <ion-col col-6  [navPush]="newone" >\n            <img src="assets/images/onlineshop.jpg" class="contentimg">\n            \n          </ion-col>\n          <!-- <ion-row [navPush]="newone" class="card-background-page">\n       <ion-col col-6 col-sm-4 col-md-3>\n       <ion-card>\n       <img  src="assets/images/beatch.jpg">\n     <div class="card-title">São Paulo</div>\n     <div class="card-subtitle">41 Listings</div>\n   </ion-card>\n   </ion-col> -->\n          <ion-col col-6 [navPush]="restaurant" >\n            <img src="assets/images/restau.jpeg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="movies" >\n            <img src="assets/images/fimlsimages.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="travel" >\n            <img src="assets/images/travels.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="hotelone" >\n            <img src="assets/images/49137216.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 >\n            <img src="assets/images/bill paid.png" class="contentimg">\n          </ion-col>\n          <ion-col col-6  >\n              <img src="assets/images/taxi.jpg" class="contentimg">\n            </ion-col>\n            <ion-col col-6 [navPush]="doctors" >\n                <img src="assets/images/doctors.jpg" class="contentimg">\n              </ion-col>\n              <ion-col col-6 [navPush]="supermarket">\n                  <img src="assets/images/fruits.jpg" class="contentimg">\n                </ion-col>\n                <ion-col col-6 [navPush]="health" >\n                    <img src="assets/images/healthand fightness.jpg" class="contentimg">\n                  </ion-col>\n        </ion-row>\n      </ion-item>\n    </div>\n    </ion-list>\n    <div *ngSwitchCase="\'findnewone\'">\n        <ion-item>\n          <ion-row>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-restaurant-outline"></ion-icon>\n              <p>Restaurant</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-cart-outline"></ion-icon>\n              <p>shop-online</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-car-outline"></ion-icon>\n              <p>Rental</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-bus-outline"></ion-icon>\n              <p>Bus-stop</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-build-outline"></ion-icon>\n              <p>Mechanic</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-cafe-outline"></ion-icon>\n              <p>Cofee-shop</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-game-controller-b-outline"></ion-icon>\n              <p>GamePoint</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-jet-outline"></ion-icon>\n              <p>Travel</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-phone-portrait-outline"></ion-icon>\n              <p>MobileShop</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-reverse-camera-outline"></ion-icon>\n              <p>Photoshop</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-train-outline"></ion-icon>\n              <p>Train</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-school-outline"></ion-icon>\n              <p>University</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-shirt-outline"></ion-icon>\n              <p>Dress-shop</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-tennisball-outline"></ion-icon>\n              <p>Sports</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-rose-outline"></ion-icon>\n              <p>Flowershop</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-film-outline"></ion-icon>\n              <p>Film</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-wine-outline"></ion-icon>\n              <p>Bar</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-timer-outline"></ion-icon>\n              <p>clock</p>\n            </ion-col>\n          </ion-row>\n        </ion-item>\n      </div>\n\n    <ion-list *ngSwitchCase="\'second\'">\n\n      <div>\n      <ion-item>\n\n        <ion-row>\n          <ion-col col-6 [navPush]="electrical" >\n            <img src="assets/images/electircal.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="industrialsupplies" >\n            <img src="assets/images/industrialsupplies.jpeg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="machine" >\n            <img src="assets/images/machine.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="automobile" >\n            <img src="assets/images/automobile.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6  >\n            <img src="assets/images/food and beverages.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6  >\n            <img src="assets/images/constructions.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6  >\n              <img src="assets/images/chemical.jpg" class="contentimg">\n            </ion-col>\n            <ion-col col-6  >\n                <img src="assets/images/laboratory.jpg" class="contentimg">\n              </ion-col>\n              <ion-col col-6 >\n                  <img src="assets/images/package.jpg" class="contentimg">\n                </ion-col>\n                <ion-col col-6  >\n                    <img src="assets/images/mechanicalcomponents.jpg" class="contentimg">\n                  </ion-col>\n        </ion-row>\n\n      </ion-item>\n      </div>\n    </ion-list>\n  <div *ngSwitchCase="\'findnewtwo\'">\n                      <ion-row>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-restaurant-outline"></ion-icon>\n                            <p>Restaurant</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-cart-outline"></ion-icon>\n                            <p>shop-online</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-car-outline"></ion-icon>\n                            <p>Rental</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-bus-outline"></ion-icon>\n                            <p>Bus-stop</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-build-outline"></ion-icon>\n                            <p>Mechanic</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-cafe-outline"></ion-icon>\n                            <p>Cofee-shop</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-game-controller-b-outline"></ion-icon>\n                            <p>GamePoint</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-jet-outline"></ion-icon>\n                            <p>Travel</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-phone-portrait-outline"></ion-icon>\n                            <p>MobileShop</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-reverse-camera-outline"></ion-icon>\n                            <p>Photoshop</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-train-outline"></ion-icon>\n                            <p>Train</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-school-outline"></ion-icon>\n                            <p>University</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-shirt-outline"></ion-icon>\n                            <p>Dress-shop</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-tennisball-outline"></ion-icon>\n                            <p>Sports</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-rose-outline"></ion-icon>\n                            <p>Flowershop</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-film-outline"></ion-icon>\n                            <p>Film</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-wine-outline"></ion-icon>\n                            <p>Bar</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-timer-outline"></ion-icon>\n                            <p>clock</p>\n                          </ion-col>\n                        </ion-row>\n                  </div>   \n  </div>\n</ion-content>\n<ion-footer>\n  <ion-toolbar>\n    <ion-title>\n      <ion-grid>\n        <ion-row>\n          <ion-col col-3 text-center>\n            <button ion-button icon-only menuToggle>\n                <ion-icon name="menu"></ion-icon>\n              </button>\n          </ion-col>\n          <ion-col col-3 text-center>\n            <ion-buttons icon-only>\n              <ion-icon name="ios-call-outline">\n              </ion-icon>\n            </ion-buttons>\n          </ion-col>\n\n          <ion-col col-3 text-center>\n            <ion-buttons icon-only>\n              <ion-icon name="ios-text-outline">\n              </ion-icon>\n            </ion-buttons>\n          </ion-col>\n          <ion-col col-3 text-center>\n            <ion-buttons icon-only>\n              <ion-icon name="ios-git-network-outline">\n              </ion-icon>\n            </ion-buttons>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-title>\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/home/home.html"*/'<ion-header>\n    <ion-toolbar >\n      \n  \n      <ion-title>Home</ion-title>\n  \n      <ion-buttons end>\n        <button ion-button icon-only>\n          <ion-icon name="search"></ion-icon>\n        </button>\n      </ion-buttons>\n  \n    </ion-toolbar>\n  </ion-header>\n\n<ion-content>\n  <div >\n    <ion-slides pager>\n      <ion-slide [navPush]="form" (click)="presentLoading()">\n        <img src="assets/images/bannerfive.jpg" class="imgsize">\n      </ion-slide>\n      <ion-slide [navPush]="form" (click)="presentLoading()">\n        <img src="assets/images/bannersix.jpg" class="imgsize">\n      </ion-slide>\n      <ion-slide [navPush]="form" (click)="presentLoading()">\n        <img src="assets/images/banner.jpg" class="imgsize">\n      </ion-slide>\n      <ion-slide [navPush]="form" (click)="presentLoading()">\n        <img src="assets/images/banner8.jpg" class="imgsize">\n      </ion-slide>\n      <ion-slide [navPush]="form" (click)="presentLoading()">\n          <img src="assets/images/bannerthree.jpg" class="imgsize">\n        </ion-slide>\n        <ion-slide [navPush]="form" (click)="presentLoading()">\n            <img src="assets/images/bannerseven.jpg" class="imgsize">\n          </ion-slide>\n    </ion-slides>\n  </div>\n  \n  <div >\n    <ion-segment color="default" [(ngModel)]="pet">\n      <ion-segment-button value="first">\n        first\n      </ion-segment-button>\n      <ion-segment-button value="second">\n        second\n      </ion-segment-button>\n      <ion-segment-button value="third" [navPush]="space" (click)="presentLoading()">\n        third\n      </ion-segment-button>\n      <ion-segment-button value="icon" (click)="showRadio()">\n\n        <ion-icon name="menu"></ion-icon>\n\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n  \n <div [ngSwitch]="pet">\n    <ion-list *ngSwitchCase="\'first\'">\n        <div>\n      <ion-item>\n        <ion-row >\n          <ion-col col-6  [navPush]="newone" >\n            <img src="assets/images/onlineshop.jpg" class="contentimg">\n            \n          </ion-col>\n          <!-- <ion-row [navPush]="newone" class="card-background-page">\n       <ion-col col-6 col-sm-4 col-md-3>\n       <ion-card>\n       <img  src="assets/images/beatch.jpg">\n     <div class="card-title">São Paulo</div>\n     <div class="card-subtitle">41 Listings</div>\n   </ion-card>\n   </ion-col> -->\n          <ion-col col-6 [navPush]="restaurant" >\n            <img src="assets/images/restau.jpeg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="movies" >\n            <img src="assets/images/fimlsimages.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="travel" >\n            <img src="assets/images/travels.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="hotelone" >\n            <img src="assets/images/49137216.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="recharge" >\n            <img src="assets/images/bill paid.png" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="taxi" >\n              <img src="assets/images/taxi.jpg" class="contentimg">\n            </ion-col>\n            <ion-col col-6 [navPush]="doctors" >\n                <img src="assets/images/doctors.jpg" class="contentimg">\n              </ion-col>\n              <ion-col col-6 [navPush]="supermarket">\n                  <img src="assets/images/fruits.jpg" class="contentimg">\n                </ion-col>\n                <ion-col col-6 [navPush]="health" >\n                    <img src="assets/images/healthand fightness.jpg" class="contentimg">\n                  </ion-col>\n        </ion-row>\n      </ion-item>\n    </div>\n    </ion-list>\n    <div *ngSwitchCase="\'findnewone\'">\n        <ion-item>\n          <ion-row>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-restaurant-outline"></ion-icon>\n              <p>Restaurant</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-cart-outline"></ion-icon>\n              <p>shop-online</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-car-outline"></ion-icon>\n              <p>Rental</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-bus-outline"></ion-icon>\n              <p>Bus-stop</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-build-outline"></ion-icon>\n              <p>Mechanic</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-cafe-outline"></ion-icon>\n              <p>Cofee-shop</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-game-controller-b-outline"></ion-icon>\n              <p>GamePoint</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-jet-outline"></ion-icon>\n              <p>Travel</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-phone-portrait-outline"></ion-icon>\n              <p>MobileShop</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-reverse-camera-outline"></ion-icon>\n              <p>Photoshop</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-train-outline"></ion-icon>\n              <p>Train</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-school-outline"></ion-icon>\n              <p>University</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-shirt-outline"></ion-icon>\n              <p>Dress-shop</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-tennisball-outline"></ion-icon>\n              <p>Sports</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-rose-outline"></ion-icon>\n              <p>Flowershop</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-film-outline"></ion-icon>\n              <p>Film</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-wine-outline"></ion-icon>\n              <p>Bar</p>\n            </ion-col>\n            <ion-col col-6 col-sm-4 col-md-3 text-center>\n              <ion-icon class="iconsize" color="brownnew" name="ios-timer-outline"></ion-icon>\n              <p>clock</p>\n            </ion-col>\n          </ion-row>\n        </ion-item>\n      </div>\n\n    <ion-list *ngSwitchCase="\'second\'">\n\n      <div>\n      <ion-item>\n\n        <ion-row>\n          <ion-col col-6 [navPush]="electrical" >\n            <img src="assets/images/electircal.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="industrialsupplies" >\n            <img src="assets/images/industrialsupplies.jpeg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="machine" >\n            <img src="assets/images/machine.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6 [navPush]="automobile" >\n            <img src="assets/images/automobile.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6  >\n            <img src="assets/images/food and beverages.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6  >\n            <img src="assets/images/constructions.jpg" class="contentimg">\n          </ion-col>\n          <ion-col col-6  >\n              <img src="assets/images/chemical.jpg" class="contentimg">\n            </ion-col>\n            <ion-col col-6  >\n                <img src="assets/images/laboratory.jpg" class="contentimg">\n              </ion-col>\n              <ion-col col-6 >\n                  <img src="assets/images/package.jpg" class="contentimg">\n                </ion-col>\n                <ion-col col-6  >\n                    <img src="assets/images/mechanicalcomponents.jpg" class="contentimg">\n                  </ion-col>\n        </ion-row>\n\n      </ion-item>\n      </div>\n    </ion-list>\n  <div *ngSwitchCase="\'findnewtwo\'">\n                      <ion-row>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-restaurant-outline"></ion-icon>\n                            <p>Restaurant</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-cart-outline"></ion-icon>\n                            <p>shop-online</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-car-outline"></ion-icon>\n                            <p>Rental</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-bus-outline"></ion-icon>\n                            <p>Bus-stop</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-build-outline"></ion-icon>\n                            <p>Mechanic</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-cafe-outline"></ion-icon>\n                            <p>Cofee-shop</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-game-controller-b-outline"></ion-icon>\n                            <p>GamePoint</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-jet-outline"></ion-icon>\n                            <p>Travel</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-phone-portrait-outline"></ion-icon>\n                            <p>MobileShop</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-reverse-camera-outline"></ion-icon>\n                            <p>Photoshop</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-train-outline"></ion-icon>\n                            <p>Train</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-school-outline"></ion-icon>\n                            <p>University</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-shirt-outline"></ion-icon>\n                            <p>Dress-shop</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-tennisball-outline"></ion-icon>\n                            <p>Sports</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-rose-outline"></ion-icon>\n                            <p>Flowershop</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-film-outline"></ion-icon>\n                            <p>Film</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-wine-outline"></ion-icon>\n                            <p>Bar</p>\n                          </ion-col>\n                          <ion-col col-6 col-sm-4 col-md-3 text-center>\n                            <ion-icon class="iconsize" color="brownnew" name="ios-timer-outline"></ion-icon>\n                            <p>clock</p>\n                          </ion-col>\n                        </ion-row>\n                  </div>   \n  </div>\n</ion-content>\n<ion-footer>\n  <ion-toolbar>\n    <ion-title>\n      <ion-grid>\n        <ion-row>\n          <ion-col col-3 text-center>\n            <button ion-button icon-only menuToggle>\n                <ion-icon name="menu"></ion-icon>\n              </button>\n          </ion-col>\n          <ion-col col-3 text-center>\n            <ion-buttons icon-only>\n              <ion-icon name="ios-call-outline">\n              </ion-icon>\n            </ion-buttons>\n          </ion-col>\n\n          <ion-col col-3 text-center>\n            <ion-buttons icon-only>\n              <ion-icon name="ios-text-outline">\n              </ion-icon>\n            </ion-buttons>\n          </ion-col>\n          <ion-col col-3 text-center>\n            <ion-buttons icon-only>\n              <ion-icon name="ios-git-network-outline">\n              </ion-icon>\n            </ion-buttons>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-title>\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]])
@@ -169,7 +175,7 @@ HomePage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Space; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -208,7 +214,7 @@ Space = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Form; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__billing_billing__ = __webpack_require__(98);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -271,7 +277,7 @@ Form = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Newone; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__billing_billing__ = __webpack_require__(98);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -321,7 +327,7 @@ Newone = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Restaurant; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__restaurantone_restaurantone__ = __webpack_require__(197);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -366,7 +372,7 @@ Restaurant = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Restaurantone; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -405,7 +411,7 @@ Restaurantone = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Movies; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -448,7 +454,7 @@ Movies = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Travel; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -490,7 +496,7 @@ Travel = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Doctors; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -532,7 +538,7 @@ Doctors = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Health; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -574,7 +580,7 @@ Health = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Supermarket; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -616,7 +622,7 @@ Supermarket = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Electrical; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -658,7 +664,7 @@ Electrical = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Industrialsupplies; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -700,7 +706,7 @@ Industrialsupplies = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Machine; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -742,7 +748,7 @@ Machine = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Automobile; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -784,7 +790,7 @@ Automobile = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Hotelone; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__hoteltwo_hoteltwo__ = __webpack_require__(208);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -826,7 +832,7 @@ Hotelone = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Hoteltwo; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -863,9 +869,129 @@ Hoteltwo = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Recharge; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rechargeone_rechargeone__ = __webpack_require__(210);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var Recharge = (function () {
+    function Recharge(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.rechargeone = __WEBPACK_IMPORTED_MODULE_2__rechargeone_rechargeone__["a" /* Rechargeone */];
+    }
+    Recharge.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Recharge');
+    };
+    return Recharge;
+}());
+Recharge = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-recharge',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/recharge/recharge.html"*/'<ion-header>\n    \n      <ion-navbar color="facebookC">\n        <ion-title>recharge</ion-title>\n      </ion-navbar>\n    \n    </ion-header>\n    \n<ion-content >\n  <ion-grid>\n    <ion-row>\n      <ion-col col-4 [navPush]="rechargeone" >\n          <img src="assets/images/sim1-min.png" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone" >\n          <img src="assets/images/sim2-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone" >\n          <img src="assets/images/sim19-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone" >\n          <img src="assets/images/sim4-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone" >\n          <img src="assets/images/sim5-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone" >\n          <img src="assets/images/sim6-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone" >\n          <img src="assets/images/sim7-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone">\n          <img src="assets/images/sim8-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone">\n          <img src="assets/images/sim9-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone">\n          <img src="assets/images/sim10-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone">\n          <img src="assets/images/sim11-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone">\n          <img src="assets/images/sim12-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone">\n          <img src="assets/images/sim13-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone">\n          <img src="assets/images/sim14-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone">\n          <img src="assets/images/sim15-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone">\n          <img src="assets/images/sim16-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone">\n          <img src="assets/images/sim17-min.jpg" >\n      </ion-col>\n      <ion-col col-4 [navPush]="rechargeone">\n          <img src="assets/images/sim18-min.jpg" >\n      </ion-col>\n\n\n    </ion-row>\n  </ion-grid>\n\n</ion-content>\n'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/recharge/recharge.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], Recharge);
+
+//# sourceMappingURL=recharge.js.map
+
+/***/ }),
+
+/***/ 210:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Rechargeone; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var Rechargeone = (function () {
+    function Rechargeone(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Rechargeone.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Rechargeone');
+    };
+    return Rechargeone;
+}());
+Rechargeone = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-rechargeone',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/rechargeone/rechargeone.html"*/'\n<ion-header>\n\n  <ion-navbar color="facebookC">\n    <ion-title>rechargeone</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content >\n   \n    \n<ion-grid>\n\n  <ion-row> \n    <!-- <ion-col>\n        <ion-icon icon-only name="arrow-back"></ion-icon>\n    </ion-col> -->\n    <ion-col col-12 class="border" text-center>\n      <h1 class="bordersize"> Quick Recharge</h1>\n    </ion-col>\n  </ion-row>\n</ion-grid>\n<ion-item>\n    <ion-label>mobile</ion-label>\n    <ion-checkbox color="newgreen" checked="true"></ion-checkbox>\n</ion-item>\n<!-- <p>Recharge my mobile no:\n\n</p> -->\n<ion-item>\n  \n    <ion-input type="text" placeholder="Recharge on my mobile no"></ion-input>\n  </ion-item>\n  \n      <ion-item>\n        <ion-label>location</ion-label>\n        <ion-select [(ngModel)]="toppings" multiple="true" cancelText="no" okText="yes">\n          <ion-option value="bacon" >perambalur</ion-option>\n          <ion-option value="olives">Trichy</ion-option>\n          <ion-option value="xcheese" >Chennai</ion-option>\n          <ion-option value="peppers">Pondicherry</ion-option>\n          <ion-option value="mushrooms">Madurai</ion-option>\n          <ion-option value="onions">Gova</ion-option>\n          <ion-option value="pepperoni">Kerala</ion-option>\n          <ion-option value="pineapple">Pondicherry</ion-option>\n          <ion-option value="sausage">irrur</ion-option>\n          <ion-option value="Spinach">velur</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n          \n            <ion-input type="number" placeholder="free recharge amount"></ion-input>\n          </ion-item>\n          <ion-row>\n            <ion-col col-12 text-center>\n          <button color="newgreen" ion-button >\n            Proceed to Recharge</button>\n            </ion-col>\n          </ion-row>\n</ion-content>\n'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/rechargeone/rechargeone.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], Rechargeone);
+
+//# sourceMappingURL=rechargeone.js.map
+
+/***/ }),
+
+/***/ 211:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Taxi; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var Taxi = (function () {
+    function Taxi(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Taxi.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Taxi');
+    };
+    return Taxi;
+}());
+Taxi = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-taxi',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/taxi/taxi.html"*/'<!--\n  Generated template for the Taxi page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="facebookC">\n    <ion-title>taxi</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<!-- <ion-content class="card-background-page">\n    \n     \n        <img src="assets/images/taxitwo.jpg"/>\n        <div class="card-title"><ion-icon color="newyyy" name="md-car" item-center></ion-icon></div>\n        <div class="card-subtitle">\n          <button class="buttonpad4" ion-button color="dark">Get a taxi</button></div>\n          <div class="card-subtitle1">\n              <button class="buttonpad2" ion-button color="newgray">Pre-Book a taxi</button></div>\n              <div class="card-subtitle2">\n                  <button class="buttonpad3" ion-button color="secondgray">My Booking</button></div>\n                  <div class="card-subtitle3">\n                  <button class="buttonpad1" ion-button color="newyyy">\n                    <ion-icon class="iconsize" name="logo-facebook" icon-only></ion-icon>\n                  log IN</button>\n                  </div>\n                  <div class="card-subtitle4">\n                      <button class="buttonpad" ion-button color="newgray">Sign in</button></div>\n    \n    </ion-content> -->\n'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/taxi/taxi.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], Taxi);
+
+//# sourceMappingURL=taxi.js.map
+
+/***/ }),
+
+/***/ 212:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -915,13 +1041,13 @@ var ListPage_1;
 
 /***/ }),
 
-/***/ 210:
+/***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(232);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -929,17 +1055,17 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 229:
+/***/ 232:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(273);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_form_form__ = __webpack_require__(194);
@@ -959,12 +1085,20 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_restaurantone_restaurantone__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_hotelone_hotelone__ = __webpack_require__(207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_hoteltwo_hoteltwo__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_recharge_recharge__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_rechargeone_rechargeone__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_taxi_taxi__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_taxione_taxione__ = __webpack_require__(282);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
+
 
 
 
@@ -1017,7 +1151,11 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_21__pages_automobile_automobile__["a" /* Automobile */],
             __WEBPACK_IMPORTED_MODULE_22__pages_restaurantone_restaurantone__["a" /* Restaurantone */],
             __WEBPACK_IMPORTED_MODULE_23__pages_hotelone_hotelone__["a" /* Hotelone */],
-            __WEBPACK_IMPORTED_MODULE_24__pages_hoteltwo_hoteltwo__["a" /* Hoteltwo */]
+            __WEBPACK_IMPORTED_MODULE_24__pages_hoteltwo_hoteltwo__["a" /* Hoteltwo */],
+            __WEBPACK_IMPORTED_MODULE_25__pages_recharge_recharge__["a" /* Recharge */],
+            __WEBPACK_IMPORTED_MODULE_26__pages_rechargeone_rechargeone__["a" /* Rechargeone */],
+            __WEBPACK_IMPORTED_MODULE_27__pages_taxi_taxi__["a" /* Taxi */],
+            __WEBPACK_IMPORTED_MODULE_28__pages_taxione_taxione__["a" /* Taxione */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1044,7 +1182,11 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_21__pages_automobile_automobile__["a" /* Automobile */],
             __WEBPACK_IMPORTED_MODULE_22__pages_restaurantone_restaurantone__["a" /* Restaurantone */],
             __WEBPACK_IMPORTED_MODULE_23__pages_hotelone_hotelone__["a" /* Hotelone */],
-            __WEBPACK_IMPORTED_MODULE_24__pages_hoteltwo_hoteltwo__["a" /* Hoteltwo */]
+            __WEBPACK_IMPORTED_MODULE_24__pages_hoteltwo_hoteltwo__["a" /* Hoteltwo */],
+            __WEBPACK_IMPORTED_MODULE_25__pages_recharge_recharge__["a" /* Recharge */],
+            __WEBPACK_IMPORTED_MODULE_26__pages_rechargeone_rechargeone__["a" /* Rechargeone */],
+            __WEBPACK_IMPORTED_MODULE_27__pages_taxi_taxi__["a" /* Taxi */],
+            __WEBPACK_IMPORTED_MODULE_28__pages_taxione_taxione__["a" /* Taxione */]
         ],
         providers: [
             __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__["a" /* StatusBar */],
@@ -1058,17 +1200,17 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 270:
+/***/ 273:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(212);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1127,13 +1269,52 @@ MyApp = __decorate([
 
 /***/ }),
 
+/***/ 282:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Taxione; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var Taxione = (function () {
+    function Taxione(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Taxione.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Taxione');
+    };
+    return Taxione;
+}());
+Taxione = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-taxione',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/taxione/taxione.html"*/'<!--\n  Generated template for the Taxione page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>taxione</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/taxione/taxione.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], Taxione);
+
+//# sourceMappingURL=taxione.js.map
+
+/***/ }),
+
 /***/ 98:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Billing; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1191,5 +1372,5 @@ Billing = __decorate([
 
 /***/ })
 
-},[210]);
+},[213]);
 //# sourceMappingURL=main.js.map
