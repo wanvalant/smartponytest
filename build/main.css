@@ -65205,6 +65205,43 @@ page-rechargeone .bordersize {
   color: #ff6f00;
 }
 
+page-rescontact .backgroundone {
+  background-image: url("../assets/images/resone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+page-rescontact .backgroundtwo {
+  background-image: url("../assets/images/resthreee.jpg");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+page-rescontact .backgroundthree {
+  background-image: url("../assets/images/restwoo.jpg");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+page-rescontact .text {
+  text-align: center;
+}
+
+page-rescontact .gridtop {
+  margin-bottom: 100px;
+}
+
+page-rescontact .fontsize {
+  font-size: 20px;
+}
+
+page-rescontact .iconsize {
+  font-size: 40px;
+}
+
 page-restaurant .backgroundone {
   background-image: url("../assets/images/resone.jpg");
   background-repeat: no-repeat;
@@ -65271,20 +65308,32 @@ page-supermarket .gridtop {
   margin-bottom: 100px;
 }
 
-page-taxi .backgroundcolor {
+page-taxi .iconsize {
+  font-size: 100px;
+}
+
+page-taxi .iconsize1 {
+  font-size: 30px;
+}
+
+page-taxi .fabclass {
+  text-align: -webkit-right;
+}
+
+page-taxione .backgroundcolor {
   background-color: #c6a700;
 }
 
-page-taxi .segment-md .segment-button {
+page-taxione .segment-md .segment-button {
   color: white;
   background-color: gray;
 }
 
-page-taxi .rowtop {
+page-taxione .rowtop {
   margin-top: 6%;
 }
 
-page-taxi .bordertop {
+page-taxione .bordertop {
   margin-top: 17px;
 }
 
