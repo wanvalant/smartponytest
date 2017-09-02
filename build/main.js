@@ -45,18 +45,18 @@ webpackEmptyAsyncContext.id = 148;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__form_form__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__newone_newone__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__restaurant_restaurant__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__movies_movies__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__travel_travel__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__doctors_doctors__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__health_health__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__supermarket_supermarket__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__electrical_electrical__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__industrialsupplies_industrialsupplies__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__machine_machine__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__automobile_automobile__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__hotelone_hotelone__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__recharge_recharge__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__taxi_taxi__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__movies_movies__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__travel_travel__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__doctors_doctors__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__health_health__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__supermarket_supermarket__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__electrical_electrical__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__industrialsupplies_industrialsupplies__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__machine_machine__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__automobile_automobile__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__hotelone_hotelone__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__recharge_recharge__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__taxi_taxi__ = __webpack_require__(213);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -373,6 +373,7 @@ Restaurant = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Restaurantone; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rescontact_rescontact__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -384,10 +385,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var Restaurantone = (function () {
     function Restaurantone(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.rescontact = __WEBPACK_IMPORTED_MODULE_2__rescontact_rescontact__["a" /* Rescontact */];
     }
     Restaurantone.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad Restaurantone');
@@ -396,7 +399,7 @@ var Restaurantone = (function () {
 }());
 Restaurantone = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-restaurantone',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/restaurantone/restaurantone.html"*/'\n<ion-header>\n    <ion-navbar color="facebookC">\n     \n  \n      <ion-title>Header</ion-title>\n  \n      <ion-buttons end>\n        <button ion-button icon-only>\n          <ion-icon name="search"></ion-icon>\n        </button>\n      </ion-buttons>\n  \n    </ion-navbar>\n  </ion-header>\n\n\n<ion-content >\n    <ion-card>\n        \n        <ion-card-content>\n            <ion-row>\n                <ion-col col-8>\n          <h2>\n           Domino\'s Pizze\n            </h2>\n          <p style="color:#757575;">\n           Anandharajan Pillai Street\n          </p>\n          <p style="color:#757575;">₹300</p>\n            \n                </ion-col>\n          <ion-col text-end col-4>\n              <button ion-button color="newgreen" small>4.1</button>\n              <p style="color:#757575;"> 430 Ratings\n              </p>\n          </ion-col>\n         \n        </ion-row>\n        <ion-row>\n            <ion-col col-3 col-sm-3>\n                <img class="borderimg" src="assets/images/resfind1.jpg">\n              </ion-col>\n              <ion-col col-3 col-sm-3>\n                  <img class="borderimg" src="assets/images/resfind1.jpg">\n                </ion-col>\n                <ion-col col-3 col-sm-3>\n                    <img class="borderimg" src="assets/images/resfind1.jpg">\n                  </ion-col>                 \n        </ion-row>\n        <ion-row>\n            <ion-col col-4>\n                <button ion-button color="newgreen">order online</button>\n      \n        \n            </ion-col>\n      <ion-col text-end col-8>\n          <h2>\n             30min\n               </h2>\n             <p style="color:#757575;">\n             Delivery time\n             </p>\n             \n      </ion-col>\n     \n    </ion-row>\n        </ion-card-content>\n      </ion-card>\n      <ion-card>\n          \n          <ion-card-content>\n              <ion-row>\n                  <ion-col col-8>\n            <h2>\n             Junior Kuppanna\n              </h2>\n            <p style="color:#757575;">\n             Anandharajan Pillai Street\n            </p>\n            <p style="color:#757575;">₹500</p>\n              \n                  </ion-col>\n            <ion-col text-end col-4>\n                <button ion-button color="newgreen" small>4.1</button>\n                <p style="color:#757575;"> 43 Ratings\n                </p>\n            </ion-col>\n           \n          </ion-row>\n          <ion-row>\n              <ion-col col-3 col-sm-3>\n                  <img class="borderimg" src="assets/images/resfind1.jpg">\n                </ion-col>\n                <ion-col  col-3 col-sm-3>\n                    <img class="borderimg" src="assets/images/resfind1.jpg">\n                  </ion-col>\n                  <ion-col col-3 col-sm-3>\n                      <img class="borderimg" src="assets/images/resfind1.jpg">\n                    </ion-col>                 \n          </ion-row>\n          <ion-row>\n              <ion-col col-4>\n                  <button ion-button color="newgreen">call</button>\n        \n          \n              </ion-col>\n    \n       \n      </ion-row>\n          </ion-card-content>\n        </ion-card>\n        <ion-card>\n            \n            <ion-card-content>\n                <ion-row>\n                    <ion-col col-8>\n              <h2>\n              Zaffron Restaurant\n                </h2>\n              <p style="color:#757575;">\n               Anna Salai\n              </p>\n              <p style="color:#757575;">₹300</p>\n                \n                    </ion-col>\n              <ion-col text-end col-4>\n                  <button ion-button color="newgreen" small>3.8</button>\n                  <p style="color:#757575;"> 68 Ratings\n                  </p>\n              </ion-col>\n             \n            </ion-row>\n            <ion-row>\n                <ion-col col-3 col-sm-3>\n                    <img class="borderimg" src="assets/images/resfind1.jpg">\n                  </ion-col>\n                  <ion-col col-3 col-sm-3>\n                      <img class="borderimg" src="assets/images/resfind1.jpg">\n                    </ion-col>\n                    <ion-col col-3 col-sm-3>\n                        <img class="borderimg" src="assets/images/resfind1.jpg">\n                      </ion-col>   \n                      <ion-col col-3 col-sm-3>\n                          <img class="borderimg" src="assets/images/resfind1.jpg">\n                        </ion-col>                             \n            </ion-row>\n            <ion-row>\n                <ion-col col-4>\n                    <button ion-button color="newgreen">order online</button>\n          \n            \n                </ion-col>\n          <ion-col text-end col-8>\n              <h2>\n                 60min\n                   </h2>\n                 <p style="color:#757575;">\n                 Delivery time\n                 </p>\n                 \n          </ion-col>\n         \n        </ion-row>\n            </ion-card-content>\n          </ion-card>\n          <ion-card>\n              \n              <ion-card-content>\n                  <ion-row>\n                      <ion-col col-8>\n                <h2>\n                Chillis restaurtant\n                  </h2>\n                <p style="color:#757575;">\n                misu street pondicherry Bazaar\n                </p>\n                <p style="color:#757575;">₹300</p>\n                  \n                      </ion-col>\n                <ion-col text-end col-4>\n                    <button ion-button color="newgreen" small>4.1</button>\n                    <p style="color:#757575;"> 430 Ratings\n                    </p>\n                </ion-col>\n               \n              </ion-row>\n              <ion-row>\n                  <ion-col col-3 col-sm-3>\n                      <img class="borderimg" src="assets/images/resfind1.jpg">\n                    </ion-col>\n                    <ion-col col-3 col-sm-3>\n                        <img class="borderimg" src="assets/images/resfind1.jpg">\n                      </ion-col>\n                     \n              </ion-row>\n              <ion-row>\n                  <ion-col >\n                      <button ion-button color="newgreen">Book Table</button>\n                      <button ion-button color="newgreen">Menu</button>\n            \n              \n                  </ion-col>\n           \n           \n          </ion-row>\n              </ion-card-content>\n            </ion-card>\n</ion-content>\n'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/restaurantone/restaurantone.html"*/,
+        selector: 'page-restaurantone',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/restaurantone/restaurantone.html"*/'\n<ion-header>\n    <ion-navbar color="facebookC">\n     \n  \n      <ion-title>Header</ion-title>\n  \n      <ion-buttons end>\n        <button ion-button icon-only>\n          <ion-icon name="search"></ion-icon>\n        </button>\n      </ion-buttons>\n  \n    </ion-navbar>\n  </ion-header>\n\n\n<ion-content >\n    <ion-card [navPush]="rescontact">\n        \n        <ion-card-content>\n            <ion-row>\n                <ion-col col-8>\n          <h2>\n           Domino\'s Pizze\n            </h2>\n          <p style="color:#757575;">\n           Anandharajan Pillai Street\n          </p>\n          <p style="color:#757575;">₹300</p>\n            \n                </ion-col>\n          <ion-col text-end col-4>\n              <button ion-button color="newgreen" small>4.1</button>\n              <p style="color:#757575;"> 430 Ratings\n              </p>\n          </ion-col>\n         \n        </ion-row>\n        <ion-row>\n            <ion-col col-3 col-sm-3>\n                <img class="borderimg" src="assets/images/resfind1.jpg">\n              </ion-col>\n              <ion-col col-3 col-sm-3>\n                  <img class="borderimg" src="assets/images/resfind1.jpg">\n                </ion-col>\n                <ion-col col-3 col-sm-3>\n                    <img class="borderimg" src="assets/images/resfind1.jpg">\n                  </ion-col>                 \n        </ion-row>\n        <ion-row>\n            <ion-col col-4>\n                <button ion-button color="newgreen">order online</button>\n      \n        \n            </ion-col>\n      <ion-col text-end col-8>\n          <h2>\n             30min\n               </h2>\n             <p style="color:#757575;">\n             Delivery time\n             </p>\n             \n      </ion-col>\n     \n    </ion-row>\n        </ion-card-content>\n      </ion-card>\n      <ion-card>\n          \n          <ion-card-content>\n              <ion-row>\n                  <ion-col col-8>\n            <h2>\n             Junior Kuppanna\n              </h2>\n            <p style="color:#757575;">\n             Anandharajan Pillai Street\n            </p>\n            <p style="color:#757575;">₹500</p>\n              \n                  </ion-col>\n            <ion-col text-end col-4>\n                <button ion-button color="newgreen" small>4.1</button>\n                <p style="color:#757575;"> 43 Ratings\n                </p>\n            </ion-col>\n           \n          </ion-row>\n          <ion-row>\n              <ion-col col-3 col-sm-3>\n                  <img class="borderimg" src="assets/images/resfind1.jpg">\n                </ion-col>\n                <ion-col  col-3 col-sm-3>\n                    <img class="borderimg" src="assets/images/resfind1.jpg">\n                  </ion-col>\n                  <ion-col col-3 col-sm-3>\n                      <img class="borderimg" src="assets/images/resfind1.jpg">\n                    </ion-col>                 \n          </ion-row>\n          <ion-row>\n              <ion-col col-4>\n                  <button ion-button color="newgreen">call</button>\n        \n          \n              </ion-col>\n    \n       \n      </ion-row>\n          </ion-card-content>\n        </ion-card>\n        <ion-card>\n            \n            <ion-card-content>\n                <ion-row>\n                    <ion-col col-8>\n              <h2>\n              Zaffron Restaurant\n                </h2>\n              <p style="color:#757575;">\n               Anna Salai\n              </p>\n              <p style="color:#757575;">₹300</p>\n                \n                    </ion-col>\n              <ion-col text-end col-4>\n                  <button ion-button color="newgreen" small>3.8</button>\n                  <p style="color:#757575;"> 68 Ratings\n                  </p>\n              </ion-col>\n             \n            </ion-row>\n            <ion-row>\n                <ion-col col-3 col-sm-3>\n                    <img class="borderimg" src="assets/images/resfind1.jpg">\n                  </ion-col>\n                  <ion-col col-3 col-sm-3>\n                      <img class="borderimg" src="assets/images/resfind1.jpg">\n                    </ion-col>\n                    <ion-col col-3 col-sm-3>\n                        <img class="borderimg" src="assets/images/resfind1.jpg">\n                      </ion-col>   \n                      <ion-col col-3 col-sm-3>\n                          <img class="borderimg" src="assets/images/resfind1.jpg">\n                        </ion-col>                             \n            </ion-row>\n            <ion-row>\n                <ion-col col-4>\n                    <button ion-button color="newgreen">order online</button>\n          \n            \n                </ion-col>\n          <ion-col text-end col-8>\n              <h2>\n                 60min\n                   </h2>\n                 <p style="color:#757575;">\n                 Delivery time\n                 </p>\n                 \n          </ion-col>\n         \n        </ion-row>\n            </ion-card-content>\n          </ion-card>\n          <ion-card>\n              \n              <ion-card-content>\n                  <ion-row>\n                      <ion-col col-8>\n                <h2>\n                Chillis restaurtant\n                  </h2>\n                <p style="color:#757575;">\n                misu street pondicherry Bazaar\n                </p>\n                <p style="color:#757575;">₹300</p>\n                  \n                      </ion-col>\n                <ion-col text-end col-4>\n                    <button ion-button color="newgreen" small>4.1</button>\n                    <p style="color:#757575;"> 430 Ratings\n                    </p>\n                </ion-col>\n               \n              </ion-row>\n              <ion-row>\n                  <ion-col col-3 col-sm-3>\n                      <img class="borderimg" src="assets/images/resfind1.jpg">\n                    </ion-col>\n                    <ion-col col-3 col-sm-3>\n                        <img class="borderimg" src="assets/images/resfind1.jpg">\n                      </ion-col>\n                     \n              </ion-row>\n              <ion-row>\n                  <ion-col >\n                      <button ion-button color="newgreen">Book Table</button>\n                      <button ion-button color="newgreen">Menu</button>\n            \n              \n                  </ion-col>\n           \n           \n          </ion-row>\n              </ion-card-content>\n            </ion-card>\n</ion-content>\n'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/restaurantone/restaurantone.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
 ], Restaurantone);
@@ -406,6 +409,45 @@ Restaurantone = __decorate([
 /***/ }),
 
 /***/ 198:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Rescontact; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var Rescontact = (function () {
+    function Rescontact(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Rescontact.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Rescontact');
+    };
+    return Rescontact;
+}());
+Rescontact = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-rescontact',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/rescontact/rescontact.html"*/'<!--\n  Generated template for the Rescontact page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>rescontact</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/rescontact/rescontact.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], Rescontact);
+
+//# sourceMappingURL=rescontact.js.map
+
+/***/ }),
+
+/***/ 199:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -448,7 +490,7 @@ Movies = __decorate([
 
 /***/ }),
 
-/***/ 199:
+/***/ 200:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -490,11 +532,56 @@ Travel = __decorate([
 
 /***/ }),
 
-/***/ 200:
+/***/ 201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Doctors; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__doctorone_doctorone__ = __webpack_require__(202);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var Doctors = (function () {
+    function Doctors(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.doctorone = __WEBPACK_IMPORTED_MODULE_2__doctorone_doctorone__["a" /* Doctorone */];
+    }
+    Doctors.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Doctors');
+    };
+    Doctors.prototype.gohome = function () {
+        this.navCtrl.popToRoot();
+    };
+    return Doctors;
+}());
+Doctors = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-doctors',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/doctors/doctors.html"*/'<ion-content>\n  <div>\n    <ion-slides >        \n          <ion-slide class="backgroundone">\n            \n            \n            <ion-row class="gridtop">\n              <ion-col col-2 (click)="gohome()">\n                  <ion-buttons  >\n                     \n                  <ion-icon  class="iconsize"  name="ios-arrow-back-outline">\n                      </ion-icon>\n                      \n                      </ion-buttons >\n              </ion-col>\n              <ion-col col-8 text-center>\n            <span >Doctors </span>\n              </ion-col>\n              <ion-col col-2>\n                  <ion-buttons  >\n                      <ion-icon  name="search" ></ion-icon>\n                  </ion-buttons>\n              </ion-col>\n            </ion-row>                       \n          </ion-slide>       \n          <ion-slide class="backgroundtwo">\n            \n            \n            <ion-row class="gridtop">\n              <ion-col col-2 (click)="gohome()">\n                  <ion-buttons  >\n                     \n                  <ion-icon  class="iconsize"  name="ios-arrow-back-outline">\n                      </ion-icon>\n                      \n                      </ion-buttons >\n              </ion-col>\n              <ion-col col-8 text-center>\n            <span >Doctors </span>\n              </ion-col>\n              <ion-col col-2>\n                  <ion-buttons  >\n                      <ion-icon  name="search" ></ion-icon>\n                  </ion-buttons>\n              </ion-col>\n            </ion-row>                       \n          </ion-slide>       \n          <ion-slide class="backgroundthree">           \n            <ion-row class="gridtop">\n              <ion-col col-2 (click)="gohome()">\n                  <ion-buttons  >\n                     \n                  <ion-icon  class="iconsize"  name="ios-arrow-back-outline">\n                      </ion-icon>\n                      \n                      </ion-buttons >\n              </ion-col>\n              <ion-col col-8 text-center>\n            <span >Doctors </span>\n              </ion-col>\n              <ion-col col-2>\n                  <ion-buttons  >\n                      <ion-icon  name="search" ></ion-icon>\n                  </ion-buttons>\n              </ion-col>\n            </ion-row>                       \n          </ion-slide>      \n        \n        </ion-slides>\n  </div>\n  <div>\n    <ion-list> \n        <ion-item-divider color="light">Categories</ion-item-divider>\n        <ion-item [navPush]="doctorone">\n          <ion-icon color="newgray" name="ios-heart-outline" item-start></ion-icon>\n           My Doctor\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item [navPush]="doctorone">\n          <ion-icon color="newgray" name="ios-medkit-outline" item-start></ion-icon>\n           AYurvedic Doctors\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item [navPush]="doctorone">\n          <ion-icon color="newgray" name="ios-car-outline" item-start></ion-icon>\n            Cardiologists\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item [navPush]="doctorone">\n          <ion-icon color="newgray" name="ios-train-outline" item-start></ion-icon>\n            Chest Specialists\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item [navPush]="doctorone">\n          <ion-icon color="newgray" name="ios-restaurant-outline" item-start></ion-icon>\n           Dentists\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item [navPush]="doctorone">\n          <ion-icon color="newgray" name="ios-apps-outline" item-start></ion-icon>\n            Dermatologists\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item [navPush]="doctorone">\n          <ion-icon color="newgray" name="ios-list-box-outline" item-start></ion-icon>\n           Diabetologists\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item [navPush]="doctorone">\n          <ion-icon color="newgray" name="ios-closed-captioning-outline" item-start></ion-icon>\n           Dietitians\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item [navPush]="doctorone">\n          <ion-icon color="newgray" name="ios-eye-outline" item-start></ion-icon>\n            Eye Specialists\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n    </ion-list>\n</div>\n  \n</ion-content>\n'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/doctors/doctors.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], Doctors);
+
+//# sourceMappingURL=doctors.js.map
+
+/***/ }),
+
+/***/ 202:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Doctorone; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -508,31 +595,28 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var Doctors = (function () {
-    function Doctors(navCtrl, navParams) {
+var Doctorone = (function () {
+    function Doctorone(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    Doctors.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Doctors');
+    Doctorone.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Doctorone');
     };
-    Doctors.prototype.gohome = function () {
-        this.navCtrl.popToRoot();
-    };
-    return Doctors;
+    return Doctorone;
 }());
-Doctors = __decorate([
+Doctorone = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-doctors',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/doctors/doctors.html"*/'<ion-content>\n  <div>\n    <ion-slides >        \n          <ion-slide class="backgroundone">\n            \n            \n            <ion-row class="gridtop">\n              <ion-col col-2 (click)="gohome()">\n                  <ion-buttons  >\n                     \n                  <ion-icon  class="iconsize"  name="ios-arrow-back-outline">\n                      </ion-icon>\n                      \n                      </ion-buttons >\n              </ion-col>\n              <ion-col col-8 text-center>\n            <span >Doctors </span>\n              </ion-col>\n              <ion-col col-2>\n                  <ion-buttons  >\n                      <ion-icon  name="search" ></ion-icon>\n                  </ion-buttons>\n              </ion-col>\n            </ion-row>                       \n          </ion-slide>       \n          <ion-slide class="backgroundtwo">\n            \n            \n            <ion-row class="gridtop">\n              <ion-col col-2 (click)="gohome()">\n                  <ion-buttons  >\n                     \n                  <ion-icon  class="iconsize"  name="ios-arrow-back-outline">\n                      </ion-icon>\n                      \n                      </ion-buttons >\n              </ion-col>\n              <ion-col col-8 text-center>\n            <span >Doctors </span>\n              </ion-col>\n              <ion-col col-2>\n                  <ion-buttons  >\n                      <ion-icon  name="search" ></ion-icon>\n                  </ion-buttons>\n              </ion-col>\n            </ion-row>                       \n          </ion-slide>       \n          <ion-slide class="backgroundthree">           \n            <ion-row class="gridtop">\n              <ion-col col-2 (click)="gohome()">\n                  <ion-buttons  >\n                     \n                  <ion-icon  class="iconsize"  name="ios-arrow-back-outline">\n                      </ion-icon>\n                      \n                      </ion-buttons >\n              </ion-col>\n              <ion-col col-8 text-center>\n            <span >Doctors </span>\n              </ion-col>\n              <ion-col col-2>\n                  <ion-buttons  >\n                      <ion-icon  name="search" ></ion-icon>\n                  </ion-buttons>\n              </ion-col>\n            </ion-row>                       \n          </ion-slide>      \n        \n        </ion-slides>\n  </div>\n  <div>\n    <ion-list> \n        <ion-item-divider color="light">Categories</ion-item-divider>\n        <ion-item>\n          <ion-icon color="newgray" name="ios-heart-outline" item-start></ion-icon>\n           My Doctor\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item>\n          <ion-icon color="newgray" name="ios-medkit-outline" item-start></ion-icon>\n           AYurvedic Doctors\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item>\n          <ion-icon color="newgray" name="ios-car-outline" item-start></ion-icon>\n            Cardiologists\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item>\n          <ion-icon color="newgray" name="ios-train-outline" item-start></ion-icon>\n            Chest Specialists\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item>\n          <ion-icon color="newgray" name="ios-restaurant-outline" item-start></ion-icon>\n           Dentists\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item>\n          <ion-icon color="newgray" name="ios-apps-outline" item-start></ion-icon>\n            Dermatologists\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item>\n          <ion-icon color="newgray" name="ios-list-box-outline" item-start></ion-icon>\n           Diabetologists\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item>\n          <ion-icon color="newgray" name="ios-closed-captioning-outline" item-start></ion-icon>\n           Dietitians\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n        <ion-item>\n          <ion-icon color="newgray" name="ios-eye-outline" item-start></ion-icon>\n            Eye Specialists\n          <ion-icon color="secondgray" name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n    </ion-list>\n</div>\n  \n</ion-content>\n'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/doctors/doctors.html"*/,
+        selector: 'page-doctorone',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/doctorone/doctorone.html"*/'<!--\n  Generated template for the Doctorone page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar color="facebookC">\n      \n  \n      <ion-title text-center>Header</ion-title>\n  \n      <ion-buttons end>\n        <button ion-button icon-only>\n          <ion-icon name="search"></ion-icon>\n        </button>\n      </ion-buttons>\n  \n    </ion-navbar>\n  </ion-header>\n\n\n<ion-content >\n\n    <ion-list>\n        <ion-item>\n          <ion-thumbnail item-start>\n            <img src="assets/images/doctors.jpg">\n          </ion-thumbnail>\n          <h2>My Neighbor Totoro</h2>\n          <p><ion-badge color="newgreentwo">4.1\n            </ion-badge><ion-icon name="md-star"></ion-icon>\n            <ion-icon name="md-star"></ion-icon>\n            <ion-icon name="md-star"></ion-icon>\n            <ion-icon name="md-star"></ion-icon>\n            <ion-icon name="md-star"></ion-icon>\n            2Ratings\n          </p>\n          <p>Hayao Miyazaki • 1988</p>\n          <button ion-button color="newgreentwo" item-end>View</button>\n        </ion-item>\n        <ion-item>\n            <ion-thumbnail item-start>\n              <img src="assets/images/doctors.jpg">\n            </ion-thumbnail>\n            <h2>My Neighbor Totoro</h2>\n            <p><ion-badge color="newgreentwo">4.1\n              </ion-badge><ion-icon name="md-star"></ion-icon>\n              <ion-icon name="md-star"></ion-icon>\n              <ion-icon name="md-star"></ion-icon>\n              <ion-icon name="md-star"></ion-icon>\n              <ion-icon name="md-star"></ion-icon>\n              2Ratings\n            </p>\n            <p>Hayao Miyazaki • 1988</p>\n           <button ion-button color="newgreentwo" item-end>View</button>\n          </ion-item>\n          <ion-item>\n              <ion-thumbnail item-start>\n                <img src="assets/images/doctors.jpg">\n              </ion-thumbnail>\n              <h2>My Neighbor Totoro</h2>\n              <p><ion-badge color="newgreentwo">4.1\n                </ion-badge><ion-icon name="md-star"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                2Ratings\n              </p>\n              <p>Hayao Miyazaki • 1988</p>\n             <button ion-button color="newgreentwo" item-end>View</button>\n            </ion-item>\n            <ion-item>\n                <ion-thumbnail item-start>\n                  <img src="assets/images/doctors.jpg">\n                </ion-thumbnail>\n                <h2>My Neighbor Totoro</h2>\n                <p><ion-badge color="newgreentwo">4.1\n                  </ion-badge><ion-icon name="md-star"></ion-icon>\n                  <ion-icon name="md-star"></ion-icon>\n                  <ion-icon name="md-star"></ion-icon>\n                  <ion-icon name="md-star"></ion-icon>\n                  <ion-icon name="md-star"></ion-icon>\n                  2Ratings\n                </p>\n                <p>Hayao Miyazaki • 1988</p>\n               <button ion-button color="newgreentwo" item-end>View</button>\n              </ion-item>\n              <ion-item>\n                  <ion-thumbnail item-start>\n                    <img src="assets/images/doctors.jpg">\n                  </ion-thumbnail>\n                  <h2>My Neighbor Totoro</h2>\n                  <p><ion-badge color="newgreentwo">4.1\n                    </ion-badge><ion-icon name="md-star"></ion-icon>\n                    <ion-icon name="md-star"></ion-icon>\n                    <ion-icon name="md-star"></ion-icon>\n                    <ion-icon name="md-star"></ion-icon>\n                    <ion-icon name="md-star"></ion-icon>\n                    2Ratings\n                  </p>\n                  <p>Hayao Miyazaki • 1988</p>\n                 <button ion-button color="newgreentwo" item-end>View</button>\n                </ion-item>\n                <ion-item>\n                    <ion-thumbnail item-start>\n                      <img src="assets/images/doctors.jpg">\n                    </ion-thumbnail>\n                    <h2>My Neighbor Totoro</h2>\n                    <p><ion-badge color="newgreentwo">4.1\n                      </ion-badge><ion-icon name="md-star"></ion-icon>\n                      <ion-icon name="md-star"></ion-icon>\n                      <ion-icon name="md-star"></ion-icon>\n                      <ion-icon name="md-star"></ion-icon>\n                      <ion-icon name="md-star"></ion-icon>\n                      2Ratings\n                    </p>\n                    <p>Hayao Miyazaki • 1988</p>\n                   <button ion-button color="newgreentwo" item-end>View</button>\n                  </ion-item>\n                  <ion-item>\n                      <ion-thumbnail item-start>\n                        <img src="assets/images/doctors.jpg">\n                      </ion-thumbnail>\n                      <h2>My Neighbor Totoro</h2>\n                      <p><ion-badge color="newgreentwo">4.1\n                        </ion-badge><ion-icon name="md-star"></ion-icon>\n                        <ion-icon name="md-star"></ion-icon>\n                        <ion-icon name="md-star"></ion-icon>\n                        <ion-icon name="md-star"></ion-icon>\n                        <ion-icon name="md-star"></ion-icon>\n                        2Ratings\n                      </p>\n                      <p>Hayao Miyazaki • 1988</p>\n                     <button ion-button color="newgreentwo" item-end>View</button>\n                    </ion-item>\n                    <ion-item>\n                        <ion-thumbnail item-start>\n                          <img src="assets/images/doctors.jpg">\n                        </ion-thumbnail>\n                        <h2>My Neighbor Totoro</h2>\n                        <p><ion-badge color="newgreentwo">4.1\n                          </ion-badge><ion-icon name="md-star"></ion-icon>\n                          <ion-icon name="md-star"></ion-icon>\n                          <ion-icon name="md-star"></ion-icon>\n                          <ion-icon name="md-star"></ion-icon>\n                          <ion-icon name="md-star"></ion-icon>\n                          2Ratings\n                        </p>\n                        <p>Hayao Miyazaki • 1988</p>\n                       <button ion-button color="newgreentwo" item-end>View</button>\n                      </ion-item>\n                      <ion-item>\n                          <ion-thumbnail item-start>\n                            <img src="assets/images/doctors.jpg">\n                          </ion-thumbnail>\n                          <h2>My Neighbor Totoro</h2>\n                          <p><ion-badge color="newgreentwo">4.1\n                            </ion-badge><ion-icon name="md-star"></ion-icon>\n                            <ion-icon name="md-star"></ion-icon>\n                            <ion-icon name="md-star"></ion-icon>\n                            <ion-icon name="md-star"></ion-icon>\n                            <ion-icon name="md-star"></ion-icon>\n                            2Ratings\n                          </p>\n                          <p>Hayao Miyazaki • 1988</p>\n                         <button ion-button color="newgreentwo" item-end>View</button>\n                        </ion-item>\n      </ion-list>\n      <ion-grid>\n        <ion-row style="background-color:#0d47a1;">\n          <ion-col col-12 text-center>\n            <h6 class="headercolor">\n            Get quotes for Dietians!</h6>\n          </ion-col>\n          <ion-col col-12 text-center>\n              <ion-item>\n                  <ion-input type="text" placeholder="Name"></ion-input>\n                </ion-item>\n              \n            </ion-col>\n            <ion-col col-12 text-center>\n                <ion-item>\n                    <ion-input type="text" placeholder="Mobile no"></ion-input>\n                  </ion-item>\n               \n              </ion-col>\n              <ion-col col-12 text-center>\n                  <button ion-button color="newgreen" item-end full>submit</button>\n                  \n                 </ion-col>\n        </ion-row>\n      </ion-grid>\n      <ion-grid>\n      </ion-grid>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/doctorone/doctorone.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-], Doctors);
+], Doctorone);
 
-//# sourceMappingURL=doctors.js.map
+//# sourceMappingURL=doctorone.js.map
 
 /***/ }),
 
-/***/ 201:
+/***/ 203:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -574,7 +658,7 @@ Health = __decorate([
 
 /***/ }),
 
-/***/ 202:
+/***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -616,7 +700,7 @@ Supermarket = __decorate([
 
 /***/ }),
 
-/***/ 203:
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -658,7 +742,7 @@ Electrical = __decorate([
 
 /***/ }),
 
-/***/ 204:
+/***/ 206:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -700,7 +784,7 @@ Industrialsupplies = __decorate([
 
 /***/ }),
 
-/***/ 205:
+/***/ 207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -742,7 +826,7 @@ Machine = __decorate([
 
 /***/ }),
 
-/***/ 206:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -784,14 +868,14 @@ Automobile = __decorate([
 
 /***/ }),
 
-/***/ 207:
+/***/ 209:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Hotelone; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__hoteltwo_hoteltwo__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__hoteltwo_hoteltwo__ = __webpack_require__(210);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -826,7 +910,7 @@ Hotelone = __decorate([
 
 /***/ }),
 
-/***/ 208:
+/***/ 210:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -865,14 +949,14 @@ Hoteltwo = __decorate([
 
 /***/ }),
 
-/***/ 209:
+/***/ 211:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Recharge; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rechargeone_rechargeone__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rechargeone_rechargeone__ = __webpack_require__(212);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -907,7 +991,7 @@ Recharge = __decorate([
 
 /***/ }),
 
-/***/ 210:
+/***/ 212:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -946,7 +1030,7 @@ Rechargeone = __decorate([
 
 /***/ }),
 
-/***/ 211:
+/***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -976,7 +1060,7 @@ var Taxi = (function () {
 }());
 Taxi = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-taxi',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/taxi/taxi.html"*/'<!--\n  Generated template for the Taxi page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="facebookC">\n    <ion-title>taxi</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<!-- <ion-content class="card-background-page">\n    \n     \n        <img src="assets/images/taxitwo.jpg"/>\n        <div class="card-title"><ion-icon color="newyyy" name="md-car" item-center></ion-icon></div>\n        <div class="card-subtitle">\n          <button class="buttonpad4" ion-button color="dark">Get a taxi</button></div>\n          <div class="card-subtitle1">\n              <button class="buttonpad2" ion-button color="newgray">Pre-Book a taxi</button></div>\n              <div class="card-subtitle2">\n                  <button class="buttonpad3" ion-button color="secondgray">My Booking</button></div>\n                  <div class="card-subtitle3">\n                  <button class="buttonpad1" ion-button color="newyyy">\n                    <ion-icon class="iconsize" name="logo-facebook" icon-only></ion-icon>\n                  log IN</button>\n                  </div>\n                  <div class="card-subtitle4">\n                      <button class="buttonpad" ion-button color="newgray">Sign in</button></div>\n    \n    </ion-content> -->\n'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/taxi/taxi.html"*/,
+        selector: 'page-taxi',template:/*ion-inline-start:"/home/cloudlogic/smartpondyone/src/pages/taxi/taxi.html"*/'<!--\n  Generated template for the Taxi page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="dark">\n    <ion-title>taxi</ion-title>\n  </ion-navbar>\n\n</ion-header>\n<ion-content>\n  \n  <ion-grid class="backgroundcolor">\n      <p>Book a taxi in 30 Seconds Get a taxi <b>for sure!</b></p>\n  </ion-grid>\n  <ion-list>\n      \n        <ion-item>\n          <ion-input type="text" placeholder="pick up area"></ion-input>\n        </ion-item>\n  </ion-list>\n  \n    <ion-row>\n      <ion-col col-6>\n        Quicks Picks:\n      </ion-col>\n      <ion-col col-6 text-right>\n        Pondicherry  \n        </ion-col>\n    </ion-row>\n    <ion-grid>\n       <ion-row class="rowtop">\n         <ion-segment [(ngModel)]="pet">\n          <ion-segment-button value="kittens">\n            Kittens\n          </ion-segment-button>\n          <ion-segment-button value="puppies">\n            Puppies\n          </ion-segment-button>\n        </ion-segment>\n       </ion-row>\n    </ion-grid>\n       <ion-row >\n      \n         <ion-col col-12 text-center>\n         <h5>Enter Pickup To Know fare.\n         </h5>\n         </ion-col>\n       </ion-row>\n       <ion-list>\n          \n            <ion-item>\n              <ion-input type="number" placeholder="Enter 10 digit Number"></ion-input>\n            </ion-item>\n      </ion-list>\n      <ion-row>\n          <ion-col col-6>\n            +I have a promo code\n          </ion-col>\n      </ion-row>\n      <button ion-button color="secondgray" large full>Danger</button>\n  \n   \n \n</ion-content>\n<ion-footer>\n    <ion-toolbar color="dark">\n      <ion-title>\n        <ion-row>\n          <ion-col col-9>\n        <h5>play & win cash online</h5>\n          </ion-col>\n          <ion-col col-3 text-end >\n            <ion-badge color="newgreenthree" class="bordertop">\n                <ion-icon name="arrow-round-forward"></ion-icon>\n            </ion-badge>\n          </ion-col>\n        </ion-row>\n      </ion-title>\n    </ion-toolbar>\n</ion-footer>\n\n\n\n\n<!-- <ion-content class="card-background-page">\n    \n     \n        <img src="assets/images/taxitwo.jpg"/>\n        <div class="card-title"><ion-icon color="newyyy" name="md-car" item-center></ion-icon></div>\n        <div class="card-subtitle">\n          <button class="buttonpad4" ion-button color="dark">Get a taxi</button></div>\n          <div class="card-subtitle1">\n              <button class="buttonpad2" ion-button color="newgray">Pre-Book a taxi</button></div>\n              <div class="card-subtitle2">\n                  <button class="buttonpad3" ion-button color="secondgray">My Booking</button></div>\n                  <div class="card-subtitle3">\n                  <button class="buttonpad1" ion-button color="newyyy">\n                    <ion-icon class="iconsize" name="logo-facebook" icon-only></ion-icon>\n                  log IN</button>\n                  </div>\n                  <div class="card-subtitle4">\n                      <button class="buttonpad" ion-button color="newgray">Sign in</button></div>\n    \n    </ion-content> -->\n'/*ion-inline-end:"/home/cloudlogic/smartpondyone/src/pages/taxi/taxi.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
 ], Taxi);
@@ -985,7 +1069,7 @@ Taxi = __decorate([
 
 /***/ }),
 
-/***/ 212:
+/***/ 214:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1041,13 +1125,13 @@ var ListPage_1;
 
 /***/ }),
 
-/***/ 213:
+/***/ 215:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(234);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1055,7 +1139,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 232:
+/***/ 234:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1063,9 +1147,9 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(275);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_form_form__ = __webpack_require__(194);
@@ -1073,28 +1157,32 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_billing_billing__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_newone_newone__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_restaurant_restaurant__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_movies_movies__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_travel_travel__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_doctors_doctors__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_health_health__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_supermarket_supermarket__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_electrical_electrical__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_industrialsupplies_industrialsupplies__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_machine_machine__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_automobile_automobile__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_movies_movies__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_travel_travel__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_doctors_doctors__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_health_health__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_supermarket_supermarket__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_electrical_electrical__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_industrialsupplies_industrialsupplies__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_machine_machine__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_automobile_automobile__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_restaurantone_restaurantone__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_hotelone_hotelone__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_hoteltwo_hoteltwo__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_recharge_recharge__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_rechargeone_rechargeone__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_taxi_taxi__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_taxione_taxione__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_hotelone_hotelone__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_hoteltwo_hoteltwo__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_recharge_recharge__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_rechargeone_rechargeone__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_taxi_taxi__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_taxione_taxione__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_doctorone_doctorone__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_rescontact_rescontact__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -1155,7 +1243,9 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_25__pages_recharge_recharge__["a" /* Recharge */],
             __WEBPACK_IMPORTED_MODULE_26__pages_rechargeone_rechargeone__["a" /* Rechargeone */],
             __WEBPACK_IMPORTED_MODULE_27__pages_taxi_taxi__["a" /* Taxi */],
-            __WEBPACK_IMPORTED_MODULE_28__pages_taxione_taxione__["a" /* Taxione */]
+            __WEBPACK_IMPORTED_MODULE_28__pages_taxione_taxione__["a" /* Taxione */],
+            __WEBPACK_IMPORTED_MODULE_29__pages_doctorone_doctorone__["a" /* Doctorone */],
+            __WEBPACK_IMPORTED_MODULE_30__pages_rescontact_rescontact__["a" /* Rescontact */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1186,7 +1276,9 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_25__pages_recharge_recharge__["a" /* Recharge */],
             __WEBPACK_IMPORTED_MODULE_26__pages_rechargeone_rechargeone__["a" /* Rechargeone */],
             __WEBPACK_IMPORTED_MODULE_27__pages_taxi_taxi__["a" /* Taxi */],
-            __WEBPACK_IMPORTED_MODULE_28__pages_taxione_taxione__["a" /* Taxione */]
+            __WEBPACK_IMPORTED_MODULE_28__pages_taxione_taxione__["a" /* Taxione */],
+            __WEBPACK_IMPORTED_MODULE_29__pages_doctorone_doctorone__["a" /* Doctorone */],
+            __WEBPACK_IMPORTED_MODULE_30__pages_rescontact_rescontact__["a" /* Rescontact */]
         ],
         providers: [
             __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__["a" /* StatusBar */],
@@ -1200,7 +1292,7 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 273:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1210,7 +1302,7 @@ AppModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(214);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1269,7 +1361,7 @@ MyApp = __decorate([
 
 /***/ }),
 
-/***/ 282:
+/***/ 284:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1372,5 +1464,5 @@ Billing = __decorate([
 
 /***/ })
 
-},[213]);
+},[215]);
 //# sourceMappingURL=main.js.map
